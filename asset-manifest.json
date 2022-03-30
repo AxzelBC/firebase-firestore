@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/firebase-firestore/static/css/main.982bcd53.css",
+    "main.js": "/firebase-firestore/static/js/main.d52d113d.js",
+    "index.html": "/firebase-firestore/index.html",
+    "main.982bcd53.css.map": "/firebase-firestore/static/css/main.982bcd53.css.map",
+    "main.d52d113d.js.map": "/firebase-firestore/static/js/main.d52d113d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.982bcd53.css",
+    "static/js/main.d52d113d.js"
+  ]
+}

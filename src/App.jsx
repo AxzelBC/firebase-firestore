@@ -120,7 +120,7 @@ function App() {
       <div className="row">
 
         <div className="col">
-          <h2>Formulario Usuario</h2>
+          <h2 className="text-center m-3">Formulario Usuario</h2>
           <form onSubmit={modoEdicion ? setUpdate : setUsuarios} className="form-group">
             <input
               value={nombre}
@@ -158,7 +158,7 @@ function App() {
           {
             error ? 
             (
-              <div>
+              <div className="alert alert-danger">
                 <p>{error}</p>
               </div>
             )
@@ -170,7 +170,7 @@ function App() {
         </div>
 
         <div className="col">
-          <h2>Lista de tu Agenda</h2>
+          <h2 className="text-center m-3">Lista de tu Agenda</h2>
 
           <ul className="list-group">
           {
@@ -185,9 +185,9 @@ function App() {
             )
             :
             (
-              <span>
+              <div className="alert alert-danger">
                 No hay usuarios en tu agenda
-              </span>
+              </div>
             )
           }
           </ul>
